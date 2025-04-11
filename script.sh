@@ -87,7 +87,12 @@ else
   echo -e "${RED}swarm.pem yedeği bulunamadı.${NC}"
 fi
 
+# temp-data klasörü geri yükleniyor
 if [ -d "$BACKUP_DIR/modal-login/temp-data" ]; then
+  if [ -d "$RL_DIR/modal-login/temp-data" ]; then
+    echo -e "${YELLOW}Yeni temp-data klasörü siliniyor...${NC}"
+    rm -rf "$RL_DIR/modal-login/temp-data"
+  fi
   mkdir -p "$RL_DIR/modal-login"
   cp -r "$BACKUP_DIR/modal-login/temp-data" "$RL_DIR/modal-login/temp-data"
   echo -e "${GREEN}temp-data klasörü geri yüklendi.${NC}"
