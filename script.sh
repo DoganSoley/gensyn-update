@@ -7,8 +7,25 @@ YELLOW='\033[0;33m'
 RED='\033[0;31m'
 NC='\033[0m'
 
+
+# 8. CRYPTOLOSS
 echo " "
-echo -e "${BLUE}########## RL-SWARM GÜNCELLEME BAŞLIYOR ##########${NC}"
+echo " "
+echo " "
+echo -e "${BLUE} ######  ########  ##    ## ########  ########  #######  ##        #######   ######   ######${NC}"
+echo -e "${BLUE}##    ## ##     ##  ##  ##  ##     ##    ##    ##     ## ##       ##     ## ##    ## ##    ##${NC}"
+echo -e "${BLUE}##       ##     ##   ####   ##     ##    ##    ##     ## ##       ##     ## ##       ##${NC}"
+echo -e "${BLUE}##       ########     ##    ########     ##    ##     ## ##       ##     ##  ######   ######${NC}"
+echo -e "${BLUE}##       ##   ##      ##    ##           ##    ##     ## ##       ##     ##       ##       ##${NC}"
+echo -e "${BLUE}##    ## ##    ##     ##    ##           ##    ##     ## ##       ##     ## ##    ## ##    ##${NC}"
+echo -e "${BLUE} ######  ##     ##    ##    ##           ##     #######  ########  #######   ######   ######${NC}"
+echo " "
+echo " "
+echo " "
+echo " "
+
+echo " "
+echo -e "${BLUE}########## GENSYN GÜNCELLEME BAŞLIYOR ##########${NC}"
 echo " "
 
 # Script temizliği
