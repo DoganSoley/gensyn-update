@@ -112,9 +112,23 @@ echo -e "${GREEN}Yeni screen başlatılıyor ve node başlatılıyor...${NC}"
 cd "$RL_DIR"
 screen -dmS gensyn bash -c "python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh"
 
-# 8. Bitiş
+# 8. CRYPTOLOSS
+echo " "
+echo -e "${BLUE} ######  ########  ##    ## ########  ########  #######  ##        #######   ######   ######${NC}"
+echo -e "${BLUE}##    ## ##     ##  ##  ##  ##     ##    ##    ##     ## ##       ##     ## ##    ## ##    ##${NC}"
+echo -e "${BLUE}##       ##     ##   ####   ##     ##    ##    ##     ## ##       ##     ## ##       ##${NC}"
+echo -e "${BLUE}##       ########     ##    ########     ##    ##     ## ##       ##     ##  ######   ######${NC}"
+echo -e "${BLUE}##       ##   ##      ##    ##           ##    ##     ## ##       ##     ##       ##       ##${NC}"
+echo -e "${BLUE}##    ## ##    ##     ##    ##           ##    ##     ## ##       ##     ## ##    ## ##    ##${NC}"
+echo -e "${BLUE} ######  ##     ##    ##    ##           ##     #######  ########  #######   ######   ######${NC}"
+echo " "
+
+# 9. Bitiş
 echo " "
 echo -e "${GREEN}✅ Tüm işlemler tamamlandı, node yeniden başlatıldı.${NC}"
+echo " "
 echo -e "${YELLOW}💡 Screen'e bağlanmak için: ${NC}screen -r gensyn"
 echo " "
 echo -e "${GREEN}#### Twitter : @Cryptoloss1 #####${NC}"
+echo " "
+echo -e "${GREEN}Sorularınız için ${NC}""${YELLOW}t.me/CryptolossChat${NC}""${GREEN} telegram kanalına gelebilirsiniz.${NC}"
